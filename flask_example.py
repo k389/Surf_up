@@ -4,6 +4,9 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello world'
 #export FLASK_APP=flask_example.py
-#flask run
+
+# Run the the Command line
+    #set FLASK_APP="flask_example.py"
+    #flask run
 if __name__ == "__main__":
     app.run()
