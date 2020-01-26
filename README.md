@@ -15,7 +15,7 @@ SQLLite, VS Code, Jupyter Notebook and Flask
 # Summary
 - Practice
 	- Queried 2 year data for precipitation, station information and temperature from hawaii.sqlite data
-		- the data was then used to created Flask app to present to investors.
+		- the data was then used to create Flask app to present to investors.
 - Challenge
 	- Queried the data for month of June from hawaii.sqlite for all years, precipitations and temperature.
 	- The queried data showed that the there is little precipitation and the tempretatures range from 64 degrees to 85 degrees.
@@ -32,9 +32,11 @@ SQLLite, VS Code, Jupyter Notebook and Flask
 | 75%   | 0.120000      | 77.000000   |
 | max   | 4.430000      | 85.000000   |	
 
+
 	- Queried the data for month of December from hawaii.sqlite for all years, precipitations and temperature.
 	- The queried data showed that the there is little precipitation and the tempretatures range from 56 degrees to 83 degrees. 
 	- The average temperature in month of December is 71 degrees.
+
 
 |       | precipitation | temperature |
 |-------|---------------|-------------|
@@ -47,6 +49,7 @@ SQLLite, VS Code, Jupyter Notebook and Flask
 | 75%   | 0.150000      | 74.000000   |
 | max   | 6.420000      | 83.000000   |
 
+
 	- Key differences between the June and December. 
 		- There is more precipitation in December that in the month of June. However, the difference is not significant only 2.00 difference between the months.
 		- The tempretures also are different, however the difference is by only sevelar degrees. The average demperature in June is 74.9 degrees and in December is 71.0 degrees. 
@@ -56,5 +59,6 @@ SQLLite, VS Code, Jupyter Notebook and Flask
 		- Tourist activity data of the area to determine if there would be customers other than local population.
 		- Compare other months to determine which months would be off season. How many month during the year could be off season months?
 		- Find data to determine what type customers the surf and ice cream shop businees would attrack. 
+	- The minimum, maximum and average tempretures for the months of June and December datas were also added to Flask app (app.py) for the investors' review. 
 
 
